@@ -1,0 +1,25 @@
+// {
+//   // "git.ignoreLimitWarning": true,
+//   // "code-runner.runInTerminal": false,
+//   "terminal.integrated.cwd": "",
+//   "terminal.integrated.profiles.windows": {
+//     "PowerShell": {
+//       "source": "PowerShell",
+//       "args": ["-NoLogo"]
+//     }
+//   },
+//   "terminal.integrated.defaultProfile.windows": "PowerShell",
+//   "editor.formatOnSave": true,
+//   "editor.defaultFormatter": "esbenp.prettier-vscode"
+// }
+{
+    "terminal.integrated.profiles.windows": {
+      "PowerShell": {
+        "source": "PowerShell",
+        "args": ["-NoLogo"]
+      }
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.shellArgs.windows": ["-NoLogo", "-NoProfile"]
+  }
+  
